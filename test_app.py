@@ -8,7 +8,7 @@ def test_home_status():
 def test_home_content():
     client = app.test_client()
     response = client.get('/')
-    assert b"Hello, CI/CD World!" in response.data  # <- fixed line
+    assert b"CI/CD Pipeline" in response.data  # <- fixed line
 
 def test_home_route_exists():
     client = app.test_client()

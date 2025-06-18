@@ -1,0 +1,9 @@
+body {
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  font-family: 'Segoe UI', sans-serif;
+}
+.card {
+  background-color: #ffffffdd;
+  color: #212529;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
